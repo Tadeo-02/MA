@@ -1,2 +1,11 @@
+
 #En grupos. Desarrollan la funcionalidad que les pido del String Calculator. Usando TDD. Haciendo Push en cada Verde.
 #Cuando terminan la funcionalidad, avisan en el canal de chat del grupo y yo les pido mas funcionalidad.
+import unittest
+
+def test_suma_dos_numeros():
+    assert sumar("1,2") == 3
+
+
+
+
