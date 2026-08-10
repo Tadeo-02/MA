@@ -9,6 +9,7 @@ def test_suma_dos_numeros():
 def test_suma_vacio():
     assert sumar("") == 0
 
-
+def test_suma_un_numero():
+    assert sumar("1") == 1
 
 
