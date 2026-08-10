@@ -2,8 +2,9 @@
 #En grupos. Desarrollan la funcionalidad que les pido del String Calculator. Usando TDD. Haciendo Push en cada Verde.
 #Cuando terminan la funcionalidad, avisan en el canal de chat del grupo y yo les pido mas funcionalidad.
 def sumar(numeros):
+    if numeros == "":
+        return 0
     return sum(map(int, numeros.split(",")))
-
 
 def test_sumar_dos_numeros():
     assert sumar("1,2") == 3
