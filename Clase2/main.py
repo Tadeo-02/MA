@@ -6,6 +6,9 @@ import unittest
 def test_suma_dos_numeros():
     assert sumar("1,2") == 3
 
+def test_suma_vacio():
+    assert sumar("") == 0
+
 
 
 
