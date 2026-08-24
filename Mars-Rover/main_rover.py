@@ -27,4 +27,5 @@ def avanzar(direccion):
 
     return tuple(pos_actual)
 
-
+def retroceder(direccion):
+    return (0,-1)
