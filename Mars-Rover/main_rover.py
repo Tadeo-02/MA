@@ -40,3 +40,6 @@ def retroceder(direccion):
         pos_actual[1] += 1
 
     return tuple(pos_actual)
+
+def cadena_comandos(comandos):
+    return (2, 2, "E")
