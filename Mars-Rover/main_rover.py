@@ -12,5 +12,19 @@ def girar(direccion):
         orientacion_actual = orientaciones[(direccion_actual + 1) % 4]
     return orientacion_actual
 
+pos_actual = [0, 0]
 def avanzar(direccion):
-    return (0,1)
+    global pos_actual
+
+    if orientacion_actual == "N":
+        pos_actual[1] += 1
+    elif orientacion_actual == "E":
+        pos_actual[0] += 1
+    elif orientacion_actual == "O":
+        pos_actual[0] -= 1
+    else:
+        pos_actual[1] -= 1
+
+    return tuple(pos_actual)
+
+
