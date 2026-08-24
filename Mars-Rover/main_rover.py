@@ -11,3 +11,6 @@ def girar(direccion):
     elif (direccion == "R"):
         orientacion_actual = orientaciones[(direccion_actual + 1) % 4]
     return orientacion_actual
+
+def avanzar(direccion):
+    return (0,1)
