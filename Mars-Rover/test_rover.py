@@ -6,3 +6,5 @@ def test_girar():
     assert girar("L") == "O" and girar("R") == "N"
 def test_avanzar():
     assert avanzar("F") == (0,1)
+def test_retroceder():
+    assert retroceder("R") == (0,-1)
