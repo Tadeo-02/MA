@@ -8,3 +8,5 @@ def test_avanzar():
     assert avanzar("F") == (0,1)
 def test_retroceder():
     assert retroceder("R") == (0,-1)
+def test_cadena_comandos():
+    assert cadena_comandos("FFRFF") == (2,2,"E")
